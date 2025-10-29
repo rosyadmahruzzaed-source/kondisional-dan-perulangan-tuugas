@@ -1,0 +1,20 @@
+# Program mengurutkan bilangan dari yang terkecil ke terbesar
+
+# Input minimal 3 bilangan
+a = int(input("Bilangan ke-1: "))
+b = int(input("Bilangan ke-2: "))
+c = int(input("Bilangan ke-3: "))
+
+# Jika ingin lebih dari 3 bilangan, bisa tambahkan di sini
+# d = int(input("Bilangan ke-4: "))
+# e = int(input("Bilangan ke-5: "))
+# dst...
+
+# Masukkan ke dalam list
+data = [a, b, c]
+
+# Urutkan data
+data.sort()
+
+# Tampilkan hasil
+print("Urutan bilangan:", *data)
