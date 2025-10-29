@@ -1,0 +1,14 @@
+import random
+
+# Input jumlah bilangan acak
+n = int(input("Masukkan jumlah n: "))
+
+# Inisialisasi penghitung
+count = 0
+
+# Loop sampai jumlah bilangan yang ditampilkan = n
+while count < n:
+    angka = random.random()  # menghasilkan angka acak antara 0.0 dan 1.0
+    if angka < 0.5:
+        print(angka)
+        count += 1
