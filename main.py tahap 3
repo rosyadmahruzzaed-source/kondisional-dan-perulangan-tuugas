@@ -1,0 +1,8 @@
+# Program mencetak pola angka dengan nested loop
+
+# Jumlah baris
+for i in range(9):  # dari 0 sampai 8
+    # Kolom dalam setiap baris
+    for j in range(11):  # dari 0 sampai 10
+        print(i + j, end="  ")
+    print()  # pindah ke baris berikutnya
